@@ -13,33 +13,33 @@
                 <h1>Sobre Voce</h1>
                 <div id="card">
 
-                    <div id="label">
+                    <div class="label">
                         <label>Seu nome</label>
                         <input type="text" placeholder="Ex: Marcio Pereira" required>
                         
                     </div>
                       
-                    <div id="label">
+                    <div class="label">
                         <label>Seu e-mail</label>
                         <input type="email" placeholder="Ex: Marcio@gmail.com" required>
                     </div>
                     
-                     <div id="label">
+                     <div class="label">
                         <label>Sua Senha</label>
                         <input type="password" placeholder="Ex: 12345" required>
                     </div>
 
-                     <div id="label">
+                     <div class="label">
                         <label>Repita a Senha</label>
-                        <input type="email" placeholder="Ex: Marcio@gmail.com" required>
+                        <input type="password" placeholder="Ex: Marcio@gmail.com" required>
                     </div>
                       
-                    <div id="label">
+                    <div class="label">
                         <label>Data de nascimento</label>
                         <input type="date" required>
                     </div>
 
-                    <div id="label">
+                    <div class="label">
                         <label>Telefone</label>
                         <input type="tel" maxlength="14" required>
                     </div>
@@ -52,9 +52,12 @@
                         <option>Feminino</option>
                        </select>
                  </div>
-                        <button type="submit">Cadastrar</button>
+                        <button id="btn" type="submit">Cadastrar</button>
 
-                        <a href="#">Esqueceu a senha?</a>
+                        <div class="criar-conta">                            
+                        <label>Não tem conta?</label>
+                         <a id="conta" href="#">Criar conta</a>
+                        </div>
                 </div>
             </fieldset>
         </form>
