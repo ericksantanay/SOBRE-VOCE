@@ -2,19 +2,21 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sobre voce</title>
 </head>
 <body>
     <main>
         <form>
-            <fieldset>
-                 <div id="card">
-                    <h1>Sobre Voce</h1>
+            <fieldset id="fild">
+                <h1>Sobre Voce</h1>
+                <div id="card">
+
                     <div id="label">
                         <label>Seu nome</label>
                         <input type="text" placeholder="Ex: Marcio Pereira" required>
+                        
                     </div>
                       
                     <div id="label">
@@ -42,10 +44,8 @@
                         <input type="tel" maxlength="14" required>
                     </div>
 
-                 </div>
-
                  <div id="genero">
-                     <label>Genero</label>
+                    <label>Genero</label>
                        <select>
                         <option selected disabled value="selecione">Selecione</option>
                         <option>Masculino</option>
@@ -53,6 +53,9 @@
                        </select>
                  </div>
                         <button type="submit">Cadastrar</button>
+
+                        <a href="#">Esqueceu a senha?</a>
+                </div>
             </fieldset>
         </form>
     </main>
