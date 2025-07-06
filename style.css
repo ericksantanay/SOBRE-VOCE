@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oswald:wght@200..700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&family=Oswald:wght@200..700&display=swap');
 
 
 body{
@@ -101,11 +101,15 @@ label{
 }
 
 .criar-conta{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   margin-right: 150px;
 }
 
 #conta{
-  background-color: #dad4d4;
-border: solid 2px yellow;
-text-decoration: none;
+ background-color: #dad4d4;
+ border: solid 2px yellow;
+ text-decoration: none;
 }
