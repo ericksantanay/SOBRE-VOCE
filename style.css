@@ -44,6 +44,7 @@ main {
 }
 
 #card{
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +101,11 @@ label{
 }
 
 .criar-conta{
-    width: 100%;
-    
-    background-color: #c8c8c875;
+  margin-right: 150px;
+}
+
+#conta{
+  background-color: #dad4d4;
+border: solid 2px yellow;
+text-decoration: none;
 }
