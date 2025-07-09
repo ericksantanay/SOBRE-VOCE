@@ -29,7 +29,7 @@ main {
 }
 
 #fild > h1 {
-  color: rgba(0, 0, 255, 0.784);
+  color: rgb(255, 123, 0);
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
