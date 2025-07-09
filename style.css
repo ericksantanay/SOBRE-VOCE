@@ -106,6 +106,10 @@ label{
 }
 
 #conta{
-  color: rgba(0, 0, 255, 0.764);
+ color: rgba(0, 0, 255, 0.597);
  text-decoration: none;
+}
+
+#conta:hover{
+  color: blue;
 }
