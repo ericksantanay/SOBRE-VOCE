@@ -37,7 +37,7 @@ main {
   font-style: normal;
   margin: 0;
   margin-bottom: 10px;
-  border-bottom: solid 2px rgba(0, 0, 255, 0.48);
+  border-bottom: solid 2px  rgb(255, 123, 0);
   margin-left: 20px;
   margin-right: 20px;
   
